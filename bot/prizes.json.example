@@ -1,0 +1,17 @@
+[
+  {
+    "name": "значок",
+    "min_signs": 5,
+    "q": 20
+  },
+  {
+    "name": "блокнот 1561",
+    "min_signs": 10,
+    "q": 20
+  },
+  {
+    "name": "блокнот CodingProjects",
+    "min_signs": 20,
+    "q": 5
+  }
+]

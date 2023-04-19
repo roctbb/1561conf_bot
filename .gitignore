@@ -1,0 +1,8 @@
+.idea
+bot/images/*
+bot/config.py
+bot/results.json
+bot/prizes.json
+bot/codes.json
+tickets/codes/*
+tickets/codes.json

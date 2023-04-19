@@ -1,0 +1,7 @@
+qrcode[pil]
+pypng
+pyzbar
+pillow
+opencv-python
+numpy
+pytelegrambotapi
