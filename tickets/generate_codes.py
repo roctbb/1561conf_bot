@@ -6,11 +6,16 @@ import uuid
 def get_code():
     return str(uuid.uuid4()).split('-')[0]
 
+try:
+    with open('codes.json') as code_storage:
+        codes = json.load(code_storage)
+except:
+    codes = []
 
-codes = set()
-
-while len(codes) < 100:
-    codes.add(get_code())
+while len(codes) < 200:
+    code = get_code()
+    if code not in codes:
+        codes.append(code)
 
 with open('codes.json', 'w') as code_storage:
     json.dump(list(codes), code_storage)
