@@ -61,6 +61,7 @@ def process_photo(message):
 
     elif code not in data['codes']:
         bot.send_message(chat_id, "🧐 Похоже, QR код на фотке не мой... ")
+        print("error code:", code)
 
     elif code in data['results']:
         if data['results'][code] == 'ничего':
